@@ -8,11 +8,42 @@
 
 <ion-content padding>
   <div>
+    <h1>Paso 1</h1>
     <ul>
-      <li *ngFor="let message of messages">
-          {{message}}
+      <li *ngFor="let message of messages1">
+        {{message}}
       </li>
     </ul>
-    <ion-spinner *ngIf="loading"></ion-spinner>
+    <ion-spinner *ngIf="loading1"></ion-spinner>
   </div>
+
+  <div>
+      <h1>Paso 2</h1>
+      <ul>
+        <li *ngFor="let message of messages2">
+            {{message}}
+        </li>
+      </ul>
+      <ion-spinner *ngIf="loading2"></ion-spinner>
+    </div>
+
+    <div>
+        <h1>Paso 3</h1>
+        <ul>
+          <li *ngFor="let message of messages3">
+              {{message}}
+          </li>
+        </ul>
+        <ion-spinner *ngIf="loading3"></ion-spinner>
+      </div>
+
+      <div>
+          <h1>Paso 4</h1>
+          <ul>
+            <li *ngFor="let message of messages4">
+                {{message}}
+            </li>
+          </ul>
+          <ion-spinner *ngIf="loading4"></ion-spinner>
+        </div>
 </ion-content>
